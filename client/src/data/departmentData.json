@@ -1,0 +1,157 @@
+{
+  "headers": [
+    {
+      "field": "Department ID",
+      "label": "Department ID",
+      "type": "autogenerate"
+    },
+    { "field": "Department Name", "label": "Department Name", "type": "input" },
+    { "field": "Abbreviation", "label": "Abbreviation", "type": "input" },
+    {
+      "field": "Faculty",
+      "label": "Faculty",
+      "type": "dropdown",
+      "options": ["ICT", "SCI", "ARTS", "Engineering", "Humanities"]
+    }
+  ],
+  "data": [
+    {
+      "Department ID": "DEPT031",
+      "Department Name": "Art Department",
+      "Abbreviation": "ART",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT032",
+      "Department Name": "Music Department",
+      "Abbreviation": "MUS",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT033",
+      "Department Name": "Theater Department",
+      "Abbreviation": "THEA",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT034",
+      "Department Name": "Dance Department",
+      "Abbreviation": "DANCE",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT035",
+      "Department Name": "Fine Arts Department",
+      "Abbreviation": "FA",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT036",
+      "Department Name": "Film Studies Department",
+      "Abbreviation": "FILM",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT037",
+      "Department Name": "Graphic Design Department",
+      "Abbreviation": "GRAPHIC",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT038",
+      "Department Name": "Photography Department",
+      "Abbreviation": "PHOTO",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT039",
+      "Department Name": "Ceramics Department",
+      "Abbreviation": "CERAM",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT040",
+      "Department Name": "Fashion Design Department",
+      "Abbreviation": "FASHION",
+      "Faculty": "Arts"
+    },
+    {
+      "Department ID": "DEPT061",
+      "Department Name": "Accounting Department",
+      "Abbreviation": "ACC",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT062",
+      "Department Name": "Economics Department",
+      "Abbreviation": "ECON",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT063",
+      "Department Name": "Business Law Department",
+      "Abbreviation": "BLAW",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT064",
+      "Department Name": "Entrepreneurship Department",
+      "Abbreviation": "ENTR",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT065",
+      "Department Name": "Marketing Department",
+      "Abbreviation": "MKT",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT066",
+      "Department Name": "Finance Department",
+      "Abbreviation": "FIN",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT067",
+      "Department Name": "Management Department",
+      "Abbreviation": "MGT",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT068",
+      "Department Name": "International Business Department",
+      "Abbreviation": "INTBUS",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT069",
+      "Department Name": "Supply Chain Management Department",
+      "Abbreviation": "SCMGT",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT070",
+      "Department Name": "Information Systems Department",
+      "Abbreviation": "IS",
+      "Faculty": "Business School"
+    },
+    {
+      "Department ID": "DEPT001",
+      "Department Name": "Civil Engineering Department",
+      "Abbreviation": "CE",
+      "Faculty": "Engineering and Build Science"
+    },
+    {
+      "Department ID": "DEPT002",
+      "Department Name": "Mechanical Engineering Department",
+      "Abbreviation": "ME",
+      "Faculty": "Engineering and Build Science"
+    },
+    {
+      "Department ID": "DEPT003",
+      "Department Name": "Architecture Department",
+      "Abbreviation": "ARCH",
+      "Faculty": "Engineering and Build Science"
+    }
+  ]
+}

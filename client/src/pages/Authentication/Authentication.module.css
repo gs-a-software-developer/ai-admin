@@ -1,0 +1,147 @@
+/* Authentication.module.css */
+@import "../../styles/variables.module.css";
+@import "../../styles/typography.module.css";
+@import "../../styles/reset.css";
+
+/* Page Title Styling */
+.pageTitle {
+  font-size: var(--font-size-large);
+  color: var(--color-dark);
+  font-weight: 500;
+  margin-bottom: var(--spacing-large);
+}
+
+/* General container settings */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  padding: var(--spacing-large);
+  box-sizing: border-box;
+}
+
+/* Authentication container */
+.authContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+}
+
+/* Form container */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+/* Input container */
+.inputContainer {
+  position: relative;
+  margin-bottom: var(--spacing-medium);
+}
+
+/* Input field */
+.formInput {
+  padding: var(--spacing-large);
+  font-size: var(--font-size-base);
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--color-line);
+  background-color: var(--color-white);
+  transition: color 0.3s ease, border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.formInput:focus {
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  outline: none;
+}
+
+.formInput:focus + .formLabel,
+.formInput:not(:placeholder-shown) + .formLabel {
+  color: var(--color-secondary);
+  top: 1px;
+  font-size: var(--font-size-small);
+  border-radius: 5px;
+}
+
+/* Label styling */
+.formLabel {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: var(--font-size-base);
+  color: var(--color-muted);
+  transition: 0.3s ease;
+  pointer-events: none;
+  background: var(--color-white);
+  padding: 0 4px;
+}
+
+/* Footer buttons */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  margin-top: var(--spacing-large);
+}
+
+.errorText {
+  font-size: var(--font-size-base);
+  color: rgba(218, 38, 62, 0.5);
+}
+
+/* Buttons */
+.switchButton,
+.submitButton {
+  padding: var(--spacing-small) var(--spacing-large);
+  font-size: var(--font-size-base);
+  flex: 1;
+  margin: 0 var(--spacing-small);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: opacity 0.3s ease;
+}
+
+/* Switch button */
+.switchButton {
+  background-color: transparent;
+  color: var(--color-secondary);
+  border: 1px solid var(--color-light);
+}
+
+/* Submit button */
+.submitButton {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.submitButton:hover {
+  opacity: 0.9;
+}
+
+/* Switch text */
+.switchText {
+  text-align: center;
+  margin-top: var(--spacing-medium);
+}
+
+.switchText button {
+  background: none;
+  border: none;
+  color: var(--color-secondary);
+  cursor: pointer;
+  font-weight: bold;
+}

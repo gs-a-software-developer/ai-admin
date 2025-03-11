@@ -1,0 +1,53 @@
+/* variables.module.css */
+
+:root {
+  /* Colors */
+  --color-primary: #0046cf;
+  --color-secondary: #007aff;
+  --color-secondary-2: #007bff16;
+  --color-tertiary: #30B0C7;
+  --color-light: #e6f2ff;
+  --color-gray: #d2d2d2;
+  --color-light-gray: #ebecec;
+  --color-dark: #090909;
+  --color-dark-2: #2c2c36;
+  --color-muted: #b6c2d6;
+  --color-line: #b2c7f1;
+  --color-line-2: #e6edfb;
+  --color-text: #f7f8f9;
+  --color-background: #f7f8f9;
+  --color-white: #fff;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-small: 8px;
+  --spacing-medium: 12px;
+  --spacing-large: 20px;
+
+  /* Typography */
+  --font-main: "Poppins", sans-serif;
+  --font-size-base: 14px;
+  --font-size-small: 12px;
+  --font-size-large: 40px;
+  --font-size-heading: 24px;
+
+  /* Line Heights */
+  --line-height-h1: 40px;
+  --line-height-h2: 32px;
+  --line-height-h3: 32px;
+  --line-height-subtext: 20px;
+  --line-height-text: 20px;
+  --line-height-menu: 24px;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Border Radius */
+  --radius-xs: 5px;
+  --radius-small: 8px;
+  --radius-medium: 10px;
+  --radius-large: 25px;
+}

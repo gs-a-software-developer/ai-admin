@@ -1,0 +1,52 @@
+{
+  "headers": [
+    { "field": "Campus ID", "label": "Campus ID", "type": "autogenerate" },
+    { "field": "Campus Name", "label": "Campus Name", "type": "input" },
+    { "field": "Abbreviation", "label": "Abbreviation", "type": "input" },
+    { "field": "Address", "label": "Address", "type": "input" }
+  ],
+  "data": [
+    {
+      "Campus ID": "CAMP001",
+      "Campus Name": "Arcadia",
+      "Abbreviation": "ARC",
+      "Address": "123 Arcadia Street, Arcadia"
+    },
+    {
+      "Campus ID": "CAMP002",
+      "Campus Name": "Arts",
+      "Abbreviation": "ARTS",
+      "Address": "456 Arts Avenue, Arts District"
+    },
+    {
+      "Campus ID": "CAMP003",
+      "Campus Name": "Emalahleni",
+      "Abbreviation": "EMA",
+      "Address": "789 Emalahleni Road, Emalahleni"
+    },
+    {
+      "Campus ID": "CAMP004",
+      "Campus Name": "Polokwane",
+      "Abbreviation": "POL",
+      "Address": "101 Polokwane Street, Polokwane"
+    },
+    {
+      "Campus ID": "CAMP005",
+      "Campus Name": "Pretoria",
+      "Abbreviation": "PTA",
+      "Address": "567 Pretoria Avenue, Pretoria"
+    },
+    {
+      "Campus ID": "CAMP006",
+      "Campus Name": "Soshanguve South",
+      "Abbreviation": "SSS",
+      "Address": "321 Soshanguve South Road, Soshanguve"
+    },
+    {
+      "Campus ID": "CAMP007",
+      "Campus Name": "Soshanguve North",
+      "Abbreviation": "SSN",
+      "Address": "654 Soshanguve North Street, Soshanguve"
+    }
+  ]
+}

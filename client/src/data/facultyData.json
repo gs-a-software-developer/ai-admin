@@ -1,0 +1,44 @@
+{
+  "headers": [
+    { "field": "Faculty ID", "type": "autogenerate" },
+    { "field": "Faculty Name", "type": "input" },
+    { "field": "Abbreviation", "type": "input" }
+  ],
+  "data": [
+    {
+      "Faculty ID": "FAC001",
+      "Faculty Name": "Engineering and Build Science",
+      "Abbreviation": "FEBE"
+    },
+    {
+      "Faculty ID": "FAC002",
+      "Faculty Name": "Science",
+      "Abbreviation": "SCI"
+    },
+    {
+      "Faculty ID": "FAC003",
+      "Faculty Name": "Humanities",
+      "Abbreviation": "HUM"
+    },
+    {
+      "Faculty ID": "FAC004",
+      "Faculty Name": "Arts",
+      "Abbreviation": "ART"
+    },
+    {
+      "Faculty ID": "FAC005",
+      "Faculty Name": "Information and Communication Technology",
+      "Abbreviation": "ICT"
+    },
+    {
+      "Faculty ID": "FAC006",
+      "Faculty Name": "Management Sciences",
+      "Abbreviation": "MGT"
+    },
+    {
+      "Faculty ID": "FAC007",
+      "Faculty Name": "Business School",
+      "Abbreviation": "BS"
+    }
+  ]
+}

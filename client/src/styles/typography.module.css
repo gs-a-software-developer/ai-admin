@@ -1,0 +1,40 @@
+/* typography.css */
+.heading-1 {
+  font-size: var(--font-size-large);
+  line-height: 40px;
+  font-weight: 500;
+  font-family: var(--font-main);
+  color: var(--color-dark);
+}
+
+.heading-2 {
+  font-size: var(--font-size-heading);
+  line-height: 32px;
+  font-weight: 500;
+  font-family: var(--font-main);
+  color: var(--color-dark);
+}
+
+.text-1 {
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: normal;
+  font-family: var(--font-main);
+  color: var(--color-dark);
+}
+
+.text-2 {
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: bold;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.text-2 {
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: bold;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}

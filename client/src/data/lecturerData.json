@@ -1,0 +1,232 @@
+{
+  "headers": [
+    {
+      "field": "Staff Number",
+      "label": "Staff Number",
+      "type": "autogenerate"
+    },
+    { "field": "Lecturer", "label": "Lecturer", "type": "input" },
+    { "field": "Name", "label": "Name", "type": "input" },
+    { "field": "Surname", "label": "Surname", "type": "input" },
+    {
+      "field": "Department",
+      "label": "Department",
+      "type": "dropdown",
+      "options": [
+        "Computer Science",
+        "Information Technology",
+        "Software Engineering"
+      ]
+    },
+    { "field": "Module Code", "label": "Module Code", "type": "input" },
+    { "field": "Module Name", "label": "Module Name", "type": "input" },
+    {
+      "field": "Campus",
+      "label": "Campus",
+      "type": "dropdown",
+      "options": ["Pretoria", "Soshanguve South"]
+    }
+  ],
+  "data": [
+    {
+      "Staff Number": "L001",
+      "Lecturer": "Dr. Alice Brown",
+      "Name": "Alice",
+      "Surname": "Brown",
+      "Department": "Computer Science",
+      "Module Code": "CS101, CS201",
+      "Module Name": "Introduction to Programming, Data Structures",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L002",
+      "Lecturer": "Prof. John Smith",
+      "Name": "John",
+      "Surname": "Smith",
+      "Department": "Information Technology",
+      "Module Code": "IT102, IT202",
+      "Module Name": "Network Fundamentals, Operating Systems",
+      "Campus": "Soshanguve South"
+    },
+    {
+      "Staff Number": "L003",
+      "Lecturer": "Dr. Jane Doe",
+      "Name": "Jane",
+      "Surname": "Doe",
+      "Department": "Software Engineering",
+      "Module Code": "SE103, SE203, SE303",
+      "Module Name": "Software Design, Agile Development, Software Testing",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L004",
+      "Lecturer": "Mr. Bob Williams",
+      "Name": "Bob",
+      "Surname": "Williams",
+      "Department": "Electrical Engineering",
+      "Module Code": "EE101, EE201",
+      "Module Name": "Circuit Analysis, Control Systems",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L005",
+      "Lecturer": "Dr. Emily Davis",
+      "Name": "Emily",
+      "Surname": "Davis",
+      "Department": "Mechanical Engineering",
+      "Module Code": "ME102, ME202",
+      "Module Name": "Thermodynamics, Fluid Mechanics",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L006",
+      "Lecturer": "Prof. Mark White",
+      "Name": "Mark",
+      "Surname": "White",
+      "Department": "Computer Science",
+      "Module Code": "CS303, CS401",
+      "Module Name": "Algorithms, Machine Learning",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L007",
+      "Lecturer": "Dr. Olivia Taylor",
+      "Name": "Olivia",
+      "Surname": "Taylor",
+      "Department": "Civil Engineering",
+      "Module Code": "CE101, CE201",
+      "Module Name": "Structural Analysis, Environmental Engineering",
+      "Campus": "Soshanguve North"
+    },
+    {
+      "Staff Number": "L008",
+      "Lecturer": "Mr. Liam Johnson",
+      "Name": "Liam",
+      "Surname": "Johnson",
+      "Department": "Mathematics",
+      "Module Code": "MATH101, MATH202",
+      "Module Name": "Calculus, Linear Algebra",
+      "Campus": "Soshanguve North"
+    },
+    {
+      "Staff Number": "L009",
+      "Lecturer": "Dr. Mia Harris",
+      "Name": "Mia",
+      "Surname": "Harris",
+      "Department": "Physics",
+      "Module Code": "PHY101, PHY201, PHY301",
+      "Module Name": "Mechanics, Electromagnetism, Quantum Physics",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L010",
+      "Lecturer": "Prof. Noah Martinez",
+      "Name": "Noah",
+      "Surname": "Martinez",
+      "Department": "Chemistry",
+      "Module Code": "CHEM101, CHEM201",
+      "Module Name": "Organic Chemistry, Physical Chemistry",
+      "Campus": "Soshanguve South"
+    },
+    {
+      "Staff Number": "L011",
+      "Lecturer": "Dr. Ava Lee",
+      "Name": "Ava",
+      "Surname": "Lee",
+      "Department": "Information Systems",
+      "Module Code": "IS102, IS202",
+      "Module Name": "Business Analysis, IT Project Management",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L012",
+      "Lecturer": "Prof. William Brown",
+      "Name": "William",
+      "Surname": "Brown",
+      "Department": "Software Engineering",
+      "Module Code": "SE403, SE503",
+      "Module Name": "System Architecture, Advanced Software Development",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L013",
+      "Lecturer": "Mr. Sophia Green",
+      "Name": "Sophia",
+      "Surname": "Green",
+      "Department": "Electrical Engineering",
+      "Module Code": "EE303, EE403",
+      "Module Name": "Power Systems, Renewable Energy",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L014",
+      "Lecturer": "Dr. Lucas Moore",
+      "Name": "Lucas",
+      "Surname": "Moore",
+      "Department": "Mechanical Engineering",
+      "Module Code": "ME401, ME501",
+      "Module Name": "Heat Transfer, Robotics",
+      "Campus": "Soshanguve South"
+    },
+    {
+      "Staff Number": "L015",
+      "Lecturer": "Prof. Charlotte Thomas",
+      "Name": "Charlotte",
+      "Surname": "Thomas",
+      "Department": "Mathematics",
+      "Module Code": "MATH303, MATH403",
+      "Module Name": "Differential Equations, Numerical Methods",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L016",
+      "Lecturer": "Mr. James Jackson",
+      "Name": "James",
+      "Surname": "Jackson",
+      "Department": "Physics",
+      "Module Code": "PHY402, PHY502",
+      "Module Name": "Thermodynamics, Astrophysics",
+      "Campus": "Soshanguve North"
+    },
+    {
+      "Staff Number": "L017",
+      "Lecturer": "Dr. Isabella Martinez",
+      "Name": "Isabella",
+      "Surname": "Martinez",
+      "Department": "Chemistry",
+      "Module Code": "CHEM302, CHEM402",
+      "Module Name": "Inorganic Chemistry, Analytical Chemistry",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L018",
+      "Lecturer": "Prof. Elijah Harris",
+      "Name": "Elijah",
+      "Surname": "Harris",
+      "Department": "Civil Engineering",
+      "Module Code": "CE302, CE402",
+      "Module Name": "Transportation Engineering, Geotechnical Engineering",
+      "Campus": "Soshanguve South"
+    },
+    {
+      "Staff Number": "L019",
+      "Lecturer": "Dr. Amelia Lewis",
+      "Name": "Amelia",
+      "Surname": "Lewis",
+      "Department": "Computer Science",
+      "Module Code": "CS502, CS602",
+      "Module Name": "Artificial Intelligence, Cybersecurity",
+      "Campus": "Pretoria"
+    },
+    {
+      "Staff Number": "L020",
+      "Lecturer": "Mr. Oliver King",
+      "Name": "Oliver",
+      "Surname": "King",
+      "Department": "Information Systems",
+      "Module Code": "IS402, IS502",
+      "Module Name": "Enterprise Systems, Cloud Computing",
+      "Campus": "Soshanguve North"
+    }
+  ]
+}

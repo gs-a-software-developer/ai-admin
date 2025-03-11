@@ -1,0 +1,31 @@
+{
+    "faculties": [
+      "ICT",
+      "HUM",
+      "ARTS",
+      "SCI",
+      "BUS", 
+      "LAW",
+      "MED"
+    ],
+    "moduleCodes": [
+      "MAD115C - Introduction to Programming",
+      "PHY101 - General Physics",
+      "ART204 - Art History",
+      "CSC301 - Advanced Computer Science",
+      "MTH202 - Calculus II",
+      "BIO310 - Genetics",
+      "ECO102 - Microeconomics"
+    ],
+    "themes": [
+      "Software Development",
+      "Web Development",
+      "Health Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Cyber Security",
+      "Network Systems"
+    ]
+  }
+  

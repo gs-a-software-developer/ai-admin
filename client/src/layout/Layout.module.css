@@ -1,0 +1,35 @@
+/* Layout.module.css */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #0046cf;
+  overflow: hidden;
+}
+
+.navbar {
+  width: 300px;
+  height: 100vh; 
+  z-index: 1000;
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto; 
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.content {
+  width: 100%; 
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #f7f7f7; 
+  padding: 20px;
+  /* overflow-y: auto; */
+}

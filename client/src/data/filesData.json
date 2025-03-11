@@ -1,0 +1,207 @@
+{
+  "headers": [
+    { "field": "ID", "label": "ID", "type": "autogenerate" },
+    { "field": "File Name", "label": "File Name", "type": "input" },
+    { "field": "Author", "label": "Author", "type": "input" },
+    {
+      "field": "Created Date",
+      "label": "Created Date",
+      "type": "autogenerate"
+    },
+    {
+      "field": "File Type",
+      "label": "File Type",
+      "type": "dropdown",
+      "options": ["video", "document", "image"]
+    },
+    {
+      "field": "Faculty",
+      "label": "Faculty",
+      "type": "dropdown",
+      "options": ["ICT", "SCI", "ARTS"]
+    },
+    { "field": "Module Code", "label": "Module Code", "type": "input" }
+  ],
+  "data": [
+    {
+      "ID": 1,
+      "File Name": "Introduction to Programming",
+      "Author": "Dr. John Doe",
+      "Created Date": "2024-08-10",
+      "File Type": "video",
+      "Faculty": "ICT",
+      "Module Code": "MAD115C"
+    },
+    {
+      "ID": 2,
+      "File Name": "General Physics Study Guide",
+      "Author": "Prof. Jane Smith",
+      "Created Date": "2024-08-12",
+      "File Type": "document",
+      "Faculty": "SCI",
+      "Module Code": "PHY101"
+    },
+    {
+      "ID": 3,
+      "File Name": "Art History Visuals",
+      "Author": "Dr. Emily Brown",
+      "Created Date": "2024-08-14",
+      "File Type": "image",
+      "Faculty": "ARTS",
+      "Module Code": "ART204"
+    },
+    {
+      "ID": 4,
+      "File Name": "Advanced Computer Science Lecture",
+      "Author": "Dr. Michael Green",
+      "Created Date": "2024-08-16",
+      "File Type": "video",
+      "Faculty": "ICT",
+      "Module Code": "CSC301"
+    },
+    {
+      "ID": 5,
+      "File Name": "Calculus II Notes",
+      "Author": "Prof. Lisa White",
+      "Created Date": "2024-08-18",
+      "File Type": "document",
+      "Faculty": "SCI",
+      "Module Code": "MTH202"
+    },
+    {
+      "ID": 6,
+      "File Name": "Intro to Environmental Science",
+      "Author": "Dr. Rachel Green",
+      "Created Date": "2024-08-20",
+      "File Type": "video",
+      "Faculty": "SCI",
+      "Module Code": "ENV110"
+    },
+    {
+      "ID": 7,
+      "File Name": "Nursing Basics",
+      "Author": "Dr. Susan Lee",
+      "Created Date": "2024-08-22",
+      "File Type": "document",
+      "Faculty": "Health Sciences",
+      "Module Code": "NUR101"
+    },
+    {
+      "ID": 8,
+      "File Name": "Engineering Diagrams",
+      "Author": "Eng. Paul Taylor",
+      "Created Date": "2024-08-24",
+      "File Type": "image",
+      "Faculty": "Engineering",
+      "Module Code": "ENG205"
+    },
+    {
+      "ID": 9,
+      "File Name": "Marketing Strategies",
+      "Author": "Dr. Karen Smith",
+      "Created Date": "2024-08-26",
+      "File Type": "video",
+      "Faculty": "Business",
+      "Module Code": "BUS310"
+    },
+    {
+      "ID": 10,
+      "File Name": "Web Development Basics",
+      "Author": "Dr. Alan Turing",
+      "Created Date": "2024-08-28",
+      "File Type": "document",
+      "Faculty": "ICT",
+      "Module Code": "WEB101"
+    },
+    {
+      "ID": 11,
+      "File Name": "Physics Experiments",
+      "Author": "Prof. Emma Carter",
+      "Created Date": "2024-08-30",
+      "File Type": "image",
+      "Faculty": "SCI",
+      "Module Code": "PHY202"
+    },
+    {
+      "ID": 12,
+      "File Name": "Legal Principles Overview",
+      "Author": "Dr. Liam Davis",
+      "Created Date": "2024-09-01",
+      "File Type": "video",
+      "Faculty": "Law",
+      "Module Code": "LAW105"
+    },
+    {
+      "ID": 13,
+      "File Name": "Introduction to Biology",
+      "Author": "Prof. Nancy Wells",
+      "Created Date": "2024-09-03",
+      "File Type": "document",
+      "Faculty": "Health Sciences",
+      "Module Code": "BIO101"
+    },
+    {
+      "ID": 14,
+      "File Name": "Architectural Renderings",
+      "Author": "Arch. Samuel Brown",
+      "Created Date": "2024-09-05",
+      "File Type": "image",
+      "Faculty": "Arts",
+      "Module Code": "ARC205"
+    },
+    {
+      "ID": 15,
+      "File Name": "Business Ethics Seminar",
+      "Author": "Dr. Laura Hill",
+      "Created Date": "2024-09-07",
+      "File Type": "video",
+      "Faculty": "Business",
+      "Module Code": "BUS402"
+    },
+    {
+      "ID": 16,
+      "File Name": "Artificial Intelligence Guide",
+      "Author": "Dr. Max Weber",
+      "Created Date": "2024-09-09",
+      "File Type": "document",
+      "Faculty": "ICT",
+      "Module Code": "AI101"
+    },
+    {
+      "ID": 17,
+      "File Name": "Fine Art Showcase",
+      "Author": "Prof. Olivia White",
+      "Created Date": "2024-09-11",
+      "File Type": "image",
+      "Faculty": "Arts",
+      "Module Code": "ART401"
+    },
+    {
+      "ID": 18,
+      "File Name": "Chemistry Reactions Explained",
+      "Author": "Dr. Ethan Green",
+      "Created Date": "2024-09-13",
+      "File Type": "video",
+      "Faculty": "SCI",
+      "Module Code": "CHEM301"
+    },
+    {
+      "ID": 19,
+      "File Name": "Mathematical Logic",
+      "Author": "Prof. Amy Red",
+      "Created Date": "2024-09-15",
+      "File Type": "document",
+      "Faculty": "ICT",
+      "Module Code": "MTH401"
+    },
+    {
+      "ID": 20,
+      "File Name": "Space Exploration Gallery",
+      "Author": "Dr. Victor Black",
+      "Created Date": "2024-09-17",
+      "File Type": "image",
+      "Faculty": "SCI",
+      "Module Code": "AST201"
+    }
+  ]
+}

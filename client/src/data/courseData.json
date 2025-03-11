@@ -1,0 +1,37 @@
+{
+  "headers": [
+    { "field": "Course ID", "label": "Course ID", "type": "autogenerate" },
+    { "field": "Course Name", "label": "Course Name", "type": "input" }
+  ],
+  "data": [
+    {
+      "Course ID": "CSC101",
+      "Course Name": "Introduction to Computer Science"
+    },
+    { "Course ID": "MTH102", "Course Name": "Calculus I" },
+    { "Course ID": "PHY103", "Course Name": "Physics for Engineers" },
+    { "Course ID": "CHM104", "Course Name": "General Chemistry" },
+    { "Course ID": "ENG105", "Course Name": "English Composition" },
+    { "Course ID": "HST201", "Course Name": "World History" },
+    { "Course ID": "BIO202", "Course Name": "Biology Basics" },
+    { "Course ID": "ECO203", "Course Name": "Microeconomics" },
+    { "Course ID": "MGT204", "Course Name": "Principles of Management" },
+    { "Course ID": "ACC301", "Course Name": "Financial Accounting" },
+    { "Course ID": "MKT302", "Course Name": "Marketing Principles" },
+    { "Course ID": "PSY303", "Course Name": "Psychology Fundamentals" },
+    { "Course ID": "SOC304", "Course Name": "Introduction to Sociology" },
+    { "Course ID": "LIT305", "Course Name": "Modern Literature" },
+    { "Course ID": "ART306", "Course Name": "Art History" },
+    { "Course ID": "EE401", "Course Name": "Electrical Engineering Basics" },
+    {
+      "Course ID": "ME402",
+      "Course Name": "Mechanical Engineering Fundamentals"
+    },
+    { "Course ID": "CS403", "Course Name": "Data Structures and Algorithms" },
+    {
+      "Course ID": "AI404",
+      "Course Name": "Introduction to Artificial Intelligence"
+    },
+    { "Course ID": "DS405", "Course Name": "Data Science Fundamentals" }
+  ]
+}

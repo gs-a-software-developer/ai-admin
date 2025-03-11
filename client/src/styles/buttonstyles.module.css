@@ -1,0 +1,47 @@
+/* buttonstyles.module.css */
+.button {
+  padding: var(--spacing-small) var(--spacing-medium);
+  border: none;
+  border-radius: var(--radius-small);
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-main);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nextButton {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.nextButton:hover {
+  background-color: var(--color-primary);
+}
+
+.backButton {
+  background-color: var(--color-background);
+  color: var(--color-dark);
+}
+
+.backButton:hover {
+  background-color: var(--color-light-gray);
+}
+
+.clearButton {
+  background-color: rgba(218, 38, 62, 0.1);
+  color: #DA263E;
+  font-size: var(--font-size-small);
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-small);
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}

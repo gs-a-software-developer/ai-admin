@@ -1,0 +1,222 @@
+@import "../../styles/variables.module.css";
+
+.tableContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size-small);
+}
+
+.pageTitle {
+  font-size: var(--font-size-heading) !important;
+  margin-bottom: var(--spacing-large);
+  color: var(--color-dark);
+  font-weight: var(--font-weight-medium);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-medium);
+  width: 100%;
+}
+
+.leftControls,
+.rightControls {
+  display: flex;
+  gap: var(--spacing-small);
+}
+
+.searchContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.actionButton,
+.pageButton {
+  width: 100px;
+  border: none;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border-radius: var(--radius-xs);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+}
+
+.blueBorderButton {
+  border: 1px solid var(--color-secondary);
+  background-color: transparent;
+  color: var(--color-secondary);
+}
+
+/* .lightBlueButton {
+  background-color: var(--color-secondary-2);
+  color: var(--color-tertiary);
+}
+
+.lightBlueButton:hover {
+  background-color: var(--color-tertiary) !important;
+  color: var(--color-white) !important;
+} */
+
+.lightBlueButton {
+  background-color: #30b0c725;
+  color: #30B0C7;
+}
+
+.lightBlueButton:hover {
+  background-color: #30b0c7 !important;
+  color: #fff !important;
+}
+
+/* .deleteButton {
+  background-color: var(--color-light-gray);
+  color: var(--color-dark);
+}
+
+.deleteButton:hover {
+  background-color: var(--color-dark) !important;
+  color: var(--color-white) !important;
+} */
+
+.deleteButton {
+  background-color: #da263e3f;
+  color: #DA263E;
+}
+
+.deleteButton:hover {
+  background-color: #DA263E !important;
+  color: #fff !important;
+}
+
+.actionButton:hover,
+.pageButton:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+}
+
+.pageButton:disabled {
+  background-color: var(--color-light-gray);
+}
+
+.pageButton i {
+  margin-right: var(--spacing-xs);
+}
+
+.actionButton i,
+.pageButton i {
+  font-size: var(--font-size-base);
+}
+
+.addButton {
+  background-color: var(--color-secondary);
+}
+
+.addButton:hover {
+  border: 1px solid var(--color-secondary);
+  background-color: transparent;
+  color: var(--color-secondary);
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 300px;
+  padding: var(--spacing-small);
+  border: 0.1px solid var(--color-line-2);
+  border-radius: var(--radius-xs);
+}
+
+.searchInput::placeholder {
+  color: var(--color-muted);
+}
+
+.searchInput:focus {
+  border: 1px solid var(--color-muted);
+  outline: var(--color-muted);
+}
+
+.table {
+    width: 100%; 
+    border-spacing: 0;
+    border: 0.1px solid var(--color-line-2);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    border-radius: var(--radius-xs);
+    overflow: hidden;
+  }
+  th,
+  td {
+    padding: var(--spacing-small) var(--spacing-medium);
+    text-align: left;
+  }
+  
+
+th:first-child {
+  border-top-left-radius: var(--radius-xs);
+}
+
+th:last-child {
+  border-top-right-radius: var(--radius-xs);
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: var(--radius-xs);
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: var(--radius-xs);
+}
+
+.placeholderRow {
+  background-color: var(--color-light-gray);
+}
+
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-large);
+  width: 100%;
+}
+
+.searchInput,
+.selectCategory,
+.sortButton {
+  margin-right: var(--spacing-small);
+}
+
+.pagination {
+  margin-top: var(--spacing-large);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-medium);
+}
+
+.pageButton {
+  padding: var(--spacing-small) var(--spacing-medium);
+  border: none;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border-radius: var(--radius-xs);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pageButton:hover:not(:disabled) {
+  background-color: var(--color-primary);
+}
+
+.pageButton:disabled {
+  background-color: var(--color-light-gray);
+  cursor: not-allowed;
+}
+
+.pageInfo {
+  font-size: var(--font-size-small);
+  color: var(--color-dark);
+}

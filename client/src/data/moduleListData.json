@@ -1,0 +1,28 @@
+{
+  "headers": [
+    { "field": "Module ID", "label": "Module ID", "type": "autogenerate" },
+    { "field": "Module Name", "label": "Module Name", "type": "input" }
+  ],
+  "data": [
+    { "Module ID": "IPR101", "Module Name": "Introduction to Programming" },
+    { "Module ID": "CAL102", "Module Name": "Calculus Basics" },
+    { "Module ID": "PHY103", "Module Name": "Physics Foundations" },
+    { "Module ID": "CHE104", "Module Name": "Chemistry Principles" },
+    { "Module ID": "ENG105", "Module Name": "Essay Writing Techniques" },
+    { "Module ID": "HST201", "Module Name": "Historical Perspectives" },
+    { "Module ID": "BIO202", "Module Name": "Biological Systems" },
+    { "Module ID": "MIC203", "Module Name": "Microeconomic Analysis" },
+    { "Module ID": "POM204", "Module Name": "Operations Management" },
+    { "Module ID": "ACC301", "Module Name": "Accounting Practices" },
+    { "Module ID": "MKT302", "Module Name": "Marketing Strategies" },
+    { "Module ID": "PSY303", "Module Name": "Cognitive Psychology" },
+    { "Module ID": "SOC304", "Module Name": "Social Dynamics" },
+    { "Module ID": "LIT305", "Module Name": "Analyzing Literature" },
+    { "Module ID": "ART306", "Module Name": "Artistic Movements" },
+    { "Module ID": "EE401", "Module Name": "Electric Circuits" },
+    { "Module ID": "ME402", "Module Name": "Thermodynamic Systems" },
+    { "Module ID": "DSA403", "Module Name": "Data Structures and Algorithms" },
+    { "Module ID": "AI404", "Module Name": "AI and Machine Learning" },
+    { "Module ID": "DTA405", "Module Name": "Data Analytics Basics" }
+  ]
+}

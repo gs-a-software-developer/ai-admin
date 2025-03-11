@@ -1,0 +1,128 @@
+{
+  "headers": [
+    { "field": "ID", "label": "ID", "type": "autogenerate" },
+    { "field": "First Name", "label": "First Name", "type": "input" },
+    { "field": "Last Name", "label": "Last Name", "type": "input" },
+    {
+      "field": "Student Number",
+      "label": "Student Number",
+      "type": "autogenerate"
+    },
+    {
+      "field": "Campus",
+      "label": "Campus",
+      "type": "dropdown",
+      "options": ["Pretoria Campus", "Cape Town Campus", "Durban Campus"]
+    },
+    {
+      "field": "Faculty",
+      "label": "Faculty",
+      "type": "dropdown",
+      "options": ["Engineering", "Science", "Business"]
+    },
+    { "field": "Course", "label": "Course", "type": "input" },
+    { "field": "Module Code", "label": "Module Code", "type": "input" }
+  ],
+  "data": [
+    {
+      "ID": 1,
+      "First Name": "Antonie",
+      "Last Name": "Smith",
+      "Student Number": "217420636",
+      "Campus": "Pretoria Campus",
+      "Faculty": "Engineering",
+      "Course": "Electrical Engineering",
+      "Module Code": "ELE115C"
+    },
+    {
+      "ID": 2,
+      "First Name": "Emily",
+      "Last Name": "Johnson",
+      "Student Number": "218630129",
+      "Campus": "Cape Town Campus",
+      "Faculty": "Science",
+      "Course": "Computer Science",
+      "Module Code": "CSC101A"
+    },
+    {
+      "ID": 3,
+      "First Name": "John",
+      "Last Name": "Doe",
+      "Student Number": "219840254",
+      "Campus": "Durban Campus",
+      "Faculty": "Business",
+      "Course": "Business Management",
+      "Module Code": "BMN202B"
+    },
+    {
+      "ID": 4,
+      "First Name": "Sophia",
+      "Last Name": "Williams",
+      "Student Number": "220155367",
+      "Campus": "Johannesburg Campus",
+      "Faculty": "Health Sciences",
+      "Course": "Nursing",
+      "Module Code": "NUR303C"
+    },
+    {
+      "ID": 5,
+      "First Name": "Michael",
+      "Last Name": "Brown",
+      "Student Number": "221267849",
+      "Campus": "Pretoria Campus",
+      "Faculty": "Engineering",
+      "Course": "Mechanical Engineering",
+      "Module Code": "MEC214D"
+    },
+    {
+      "ID": 6,
+      "First Name": "Olivia",
+      "Last Name": "Miller",
+      "Student Number": "222378910",
+      "Campus": "Cape Town Campus",
+      "Faculty": "Arts",
+      "Course": "Fine Arts",
+      "Module Code": "ART311E"
+    },
+    {
+      "ID": 7,
+      "First Name": "Liam",
+      "Last Name": "Wilson",
+      "Student Number": "223489021",
+      "Campus": "Durban Campus",
+      "Faculty": "Law",
+      "Course": "Criminal Law",
+      "Module Code": "LAW415F"
+    },
+    {
+      "ID": 8,
+      "First Name": "Ava",
+      "Last Name": "Taylor",
+      "Student Number": "224590132",
+      "Campus": "Johannesburg Campus",
+      "Faculty": "Education",
+      "Course": "Primary Education",
+      "Module Code": "EDU502G"
+    },
+    {
+      "ID": 9,
+      "First Name": "Ethan",
+      "Last Name": "Davis",
+      "Student Number": "225601243",
+      "Campus": "Pretoria Campus",
+      "Faculty": "Science",
+      "Course": "Physics",
+      "Module Code": "PHY601H"
+    },
+    {
+      "ID": 10,
+      "First Name": "Isabella",
+      "Last Name": "Garcia",
+      "Student Number": "226712354",
+      "Campus": "Cape Town Campus",
+      "Faculty": "Business",
+      "Course": "Marketing",
+      "Module Code": "MKT703I"
+    }
+  ]
+}
