@@ -25,20 +25,18 @@ const Register = ({ handleSwitch }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (validateForm()) {
-      // Simulate registration
-      const userData = { studentNumber, studentEmail, password };
-      dispatch(loginUser(userData));
-
-      // Store user data in localStorage
-      localStorage.setItem('userData', JSON.stringify(userData));
-
-      navigate('/ai-admin/lecturers');
-    } else {
-      dispatch(setAuthError('Please fill out all fields correctly.'));
-    }
+  
+    // Mock user data (bypassing authentication)
+    const userData = { studentNumber, studentEmail, password };
+    dispatch(loginUser(userData));
+  
+    // Store user data in localStorage
+    localStorage.setItem('userData', JSON.stringify(userData));
+  
+    // Redirect user
+    navigate('/ai-admin/lecturers');
   };
-
+  
   return (
     <div className={styles.container}>
       <h1 className={styles.pageTitle}>Register</h1>
